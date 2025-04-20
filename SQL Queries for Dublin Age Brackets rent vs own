@@ -6,7 +6,7 @@ DROP COLUMN F3, F4, F5, F7
 EXEC sp_rename 'AgeGroups.Census Year','Year', 'COLUMN'; 
 EXEC sp_rename 'AgeGroups.%','Percentage', 'COLUMN';
 
------------Home Ownership for 23–29 Age Group Over Time
+-----------Home Ownership for 23â€“29 Age Group Over Time
 SELECT Year,ROUND(SUM(CASE 
 WHEN [Nature of Occupancy] IN (
      'Owner occupied with loan or mortgage', 
@@ -18,7 +18,7 @@ FROM PortfolioProject..AgeGroups
 WHERE AgeBracket = '25 - 29 years'
 GROUP BY Year
 ORDER BY Year;
-----------Age Groups (25–29 vs 30–39) Owners
+----------Age Groups (25â€“29 vs 30â€“39) Owners
 
 SELECT AgeBracket,Year,SUM(Number) AS TotalOwners
 FROM PortfolioProject..AgeGroups
@@ -27,7 +27,7 @@ AND [Nature of Occupancy] = ('Owner occupied with loan or mortgage')
 GROUP BY AgeBracket, Year
 ORDER BY Year, AgeBracket;
 
------Age Groups (25–29 vs 30–39) Renters
+-----Age Groups (25â€“29 vs 30â€“39) Renters
 SELECT AgeBracket,Year,SUM(Number) AS TotalRenters
 FROM PortfolioProject..AgeGroups
 WHERE AgeBracket IN ('25 - 29 years', '30 - 34 years', '35 - 39 years')
@@ -36,7 +36,7 @@ GROUP BY AgeBracket, Year
 ORDER BY Year, AgeBracket;
 
 
------Rent for 23–29 Age Group Over Time
+-----Rent for 23â€“29 Age Group Over Time
 
 SELECT Year,SUM(Number) AS TotalRenters
 FROM PortfolioProject..AgeGroups
