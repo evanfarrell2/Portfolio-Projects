@@ -11,7 +11,7 @@
 ### Process:
 - Downloaded national datasets on Rent and House Sale prices and Demographics by Age Bracket from the CSO database
 - Imported these datsets and cleaned them via Excel and SQL
-- Performed basic calculations on the data within SQl sErver Management Studio
+- Performed basic calculations on the data within SQl Server Management Studio
 - Finalised tables for import to Tableau
 - Shared key insights on the struggle this specific age group is going through in County Dublin via Tableau Public Dashboard
 
