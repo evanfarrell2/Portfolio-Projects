@@ -1,5 +1,6 @@
-## COVID-19 Project 
-** Analyse the number of deaths related to COVID-19 across mulitple continents and countries across the world to display them visually
+## COVID-19 Project
+
+### Analyse the number of deaths related to COVID-19 across mulitple continents and countries across the world to display them visually and to provide insights
 
 ** Tools used: SQL (SQL Sever Management Studio), Excel and Tableau
 
