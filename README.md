@@ -4,9 +4,9 @@
  - Analyse Covid-19 deaths and vaccination statitsics to display visually and provide insights
 
 #### Tools used
--SQL(SQL Server Management Studio)
--Excel
--Tableau Public
+- SQL(SQL Server Management Studio)
+- Excel
+- Tableau Public
 
 ##### Process:
 - Downloaded Covid Deaths and Covid Vaccination files from ourworldindata.org
